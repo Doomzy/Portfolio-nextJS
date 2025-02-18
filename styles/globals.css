@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  scroll-behavior: smooth;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,5 +18,37 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+.slick-track {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: stretch !important;
+  padding-bottom: 2rem;
+}
+
+.slick-slide {
+  display: grid !important;
+  height: inherit !important;
+}
+
+.slick-arrow::before {
+  font-size: 40px !important;
+}
+
+.slick-next {
+  right: -25px !important;
+}
+
+.slick-prev {
+  left: -45px !important;
+}
+.slick-dots {
+  bottom: -55px !important;
+}
+
+.slick-dots li button:before {
+  color: #eab308 !important;
+  font-size: 12px !important;
 }
