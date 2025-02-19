@@ -7,6 +7,7 @@ import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import { cn } from "@/lib/utils";
 import { VT323 } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 const vt323 = VT323({
   weight: ["400"],
@@ -24,6 +25,7 @@ export default function Home() {
       <Projects />
       <Experience />
       <ContactMe />
+      <Analytics />
     </div>
   );
 }
