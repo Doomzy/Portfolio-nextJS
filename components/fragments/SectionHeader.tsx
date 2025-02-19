@@ -22,10 +22,10 @@ function SectionHeader({ title, subTitle, className }: headerProps) {
         },
       }}
     >
-      <p className="text-sm font-mono text-yellow-500">
+      <p className="text-xs sm:text-sm font-mono text-yellow-500">
         {subTitle.toUpperCase()}
       </p>
-      <h1 className="text-7xl">{title}.</h1>
+      <h1 className="text-5xl sm:text-7xl">{title}.</h1>
     </motion.div>
   );
 }

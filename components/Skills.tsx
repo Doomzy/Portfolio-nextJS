@@ -48,7 +48,7 @@ function SkillListSlider({
         {duplicateSkills.map((skill, i) => (
           <div
             key={i + skill}
-            className="px-10 py-6 mx-2 mb-1 border-4 min-w-[40%] md:min-w-[25%] xl:min-w-[16%] border-white bg-neutral-800 border-b-0 rounded-t-md text-xl text-yellow-500 font-bold text-center"
+            className="px-2 md:px-5 lg:px-10 py-6 mx-2 mb-1 border-4 min-w-[40%] md:min-w-[25%] xl:min-w-[16%] border-white bg-neutral-800 border-b-0 rounded-t-md text-xl text-yellow-500 font-bold text-center"
           >
             {skill}
           </div>

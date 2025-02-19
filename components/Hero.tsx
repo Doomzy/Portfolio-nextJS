@@ -13,7 +13,7 @@ function Hero() {
               src={heroData.image_url}
               width={"300"}
               height={"300"}
-              className=" rounded-full w-40 h-40 mb-10"
+              className=" rounded-full w-40 h-40 m-auto mb-10"
               alt={""}
             />
             <h2 className="text-sm sm:text-xl font-sans font-extralight tracking-[0.5rem] text-yellow-500">

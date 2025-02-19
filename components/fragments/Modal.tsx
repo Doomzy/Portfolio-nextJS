@@ -40,7 +40,7 @@ function Modal({
         isOpen ? "" : " hidden"
       )}
     >
-      <div className="w-fit h-fit bg-black bg-opacity-15 z-30">
+      <div className="w-fit h-fit bg-black bg-opacity-15 px-10 z-30">
         <div className="flex justify-between px-6 py-4 text-md bg-black">
           <span className="font-mono">Select a method</span>
           <button
