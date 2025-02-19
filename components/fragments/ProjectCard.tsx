@@ -28,13 +28,13 @@ function ProjectCard({ projectData, indexNum }: ProjectCardProps) {
         </span>
       </div>
       {/* project thumbnail */}
-      <div className="h-80 w-full border-2 border-white rounded-md relative content-center overflow-hidden group">
+      <div className="h-56 md:h-80 w-full border-2 border-white rounded-md relative content-center overflow-hidden group">
         <Image
           fill={projectData.fillThumbnail ? true : false}
           sizes=""
           alt={projectData.name}
           src={projectData.thumbnail}
-          className="transition-transform duration-300 ease-in-out group-hover:scale-105"
+          className="transition-transform duration-300 ease-in-out group-hover:scale-105 self-center justify-self-center"
         />
         <div className="absolute inset-0 bg-black bg-opacity-30 hover:opacity-0 transition-opacity"></div>
       </div>
